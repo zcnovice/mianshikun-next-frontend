@@ -1,5 +1,5 @@
 import { MenuDataItem } from "@ant-design/pro-layout";
-
+import { CrownOutlined } from "@ant-design/icons";
 
 // 菜单列表
 const menus = [
@@ -28,7 +28,7 @@ const menus = [
       {
         path: "/admin/user",
         name: "用户管理",
-      }
+      },
     ],
   },
 ] as MenuDataItem[];
